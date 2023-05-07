@@ -1,29 +1,32 @@
 macro(add_cursor cursor color theme dpi)
-    add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}.svg
+    add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}_${dpi}.svg
                        DEPENDS ${MAKE_SVG} ${CMAKE_CURRENT_SOURCE_DIR}/colors.in ${SVGDIR}/${cursor}.svg
                        COMMAND ${CMAKE_COMMAND} -Dconfig=${CMAKE_CURRENT_SOURCE_DIR}/colors.in
                                                 -Dinput=${SVGDIR}/${cursor}.svg
-                                                -Doutput=${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}.svg
+                                                -Doutput=${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}_${dpi}.svg
                                                 -P ${MAKE_SVG}
                       )
-    add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/png/${cursor}.png
-                       DEPENDS ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}.svg
+    add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/png/${cursor}_${dpi}.png
+                       DEPENDS ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}_${dpi}.svg
                        COMMAND ${INKSCAPE} --without-gui --export-dpi=${dpi}
-                                           --export-png=${CMAKE_BINARY_DIR}/oxy-${theme}/png/${cursor}.png
-                                           ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}.svg
+                                           --export-png=${CMAKE_BINARY_DIR}/oxy-${theme}/png/${cursor}_${dpi}.png
+                                           ${CMAKE_BINARY_DIR}/oxy-${theme}/svg/${cursor}_${dpi}.svg
                       )
 endmacro(add_cursor)
 
-macro(add_x_cursor theme cursor dpi)
+macro(add_x_cursor theme cursor dpis)
     set(inputs)
-    foreach(png ${${cursor}_inputs})
-        list(APPEND inputs ${CMAKE_BINARY_DIR}/oxy-${theme}/png/${png})
-    endforeach(png)
+    foreach(dpi ${dpis})
+        foreach(png ${${cursor}_inputs})
+            string(REPLACE ".png" "_${dpi}.png" png "${png}")
+            list(APPEND inputs ${CMAKE_BINARY_DIR}/oxy-${theme}/png/${png})
+        endforeach(png)
+    endforeach(dpi)
     add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/config/${cursor}.in
                        DEPENDS ${MAKE_CONFIG} ${CONFIGDIR}/${cursor}.in
                        COMMAND ${CMAKE_COMMAND} -Dconfig=${CONFIGDIR}/${cursor}.in
                                                 -Doutput=${CMAKE_BINARY_DIR}/oxy-${theme}/config/${cursor}.in
-                                                -Ddpi=${dpi}
+                                                -Ddpis="${dpis}"
                                                 -P ${MAKE_CONFIG}
                       )
     add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
@@ -35,19 +38,21 @@ macro(add_x_cursor theme cursor dpi)
 endmacro(add_x_cursor)
 
 file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/packages)
-macro(add_theme color theme dpi)
+macro(add_theme color theme dpis)
     file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/oxy-${theme}/png)
     file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/oxy-${theme}/svg)
     file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/oxy-${theme}/config)
     file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors)
     set(${theme}_cursors)
-    foreach(svg ${SVGS})
-        string(REGEX REPLACE ".*/" "" cursor ${svg})
-        string(REGEX REPLACE "[.]svg" "" cursor ${cursor})
-        add_cursor(${cursor} ${color} ${theme} ${dpi})
-    endforeach(svg)
+    foreach(dpi ${dpis})
+        foreach(svg ${SVGS})
+            string(REGEX REPLACE ".*/" "" cursor ${svg})
+            string(REGEX REPLACE "[.]svg" "" cursor ${cursor})
+            add_cursor(${cursor} ${color} ${theme} ${dpi})
+        endforeach(svg)
+    endforeach(dpi)
     foreach(cursor ${CURSORS})
-        add_x_cursor(${theme} ${cursor} ${dpi})
+        add_x_cursor(${theme} ${cursor} "${dpis}")
         list(APPEND ${theme}_cursors ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor})
     endforeach(cursor)
     add_custom_target(theme-${theme} ALL DEPENDS ${${theme}_cursors})
