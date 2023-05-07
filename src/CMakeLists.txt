@@ -47,3 +47,5 @@ foreach(color ${COLORS})
     list(APPEND PACKAGES package-${color})
     message(STATUS "Added themes for ${color}")
 endforeach(color)
+
+add_custom_target(all-packages DEPENDS ${PACKAGES})
