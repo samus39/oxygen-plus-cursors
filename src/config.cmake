@@ -1,5 +1,6 @@
 file(GLOB SVGS svg/*.svg)
 file(GLOB CONFIGS config/*.in)
+file(GLOB LINKS config/*.link)
 
 set(SVGDIR ${CMAKE_SOURCE_DIR}/svg)
 set(CONFIGDIR ${CMAKE_SOURCE_DIR}/config)

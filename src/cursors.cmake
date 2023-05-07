@@ -55,6 +55,16 @@ macro(add_theme color theme dpis)
         add_x_cursor(${theme} ${cursor} "${dpis}")
         list(APPEND ${theme}_cursors ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor})
     endforeach(cursor)
+    foreach(link ${LINKS})
+        file(READ "${link}" link_to)
+        string(REGEX REPLACE ".*/" "" cursor ${link})
+        string(REGEX REPLACE "[.]link" "" cursor ${cursor})
+        add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
+                           DEPENDS ${link}
+                           COMMAND ${LN} -s ${link_to} ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
+                          )
+        list(APPEND ${theme}_cursors ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor})
+    endforeach(link)
     add_custom_target(theme-${theme} ALL DEPENDS ${${theme}_cursors})
     add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/index.theme
                        DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/index.theme

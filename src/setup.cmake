@@ -7,6 +7,8 @@ find_program(INKSCAPE inkscape)
 find_program(XCURSORGEN xcursorgen)
 # TODO abort if xcursorgen not found
 
+find_program(LN ln)
+
 macro(set_dependencies cursor)
     file(READ ${CONFIGDIR}/${cursor}.in config_contents)
     string(REPLACE "\n" ";" config_contents ${config_contents})
