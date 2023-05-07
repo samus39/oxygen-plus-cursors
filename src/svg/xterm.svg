@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg3570"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    version="1.0"
    sodipodi:docname="xterm.svg"
-   sodipodi:docbase="/home/me/git/oxy-cursors/src/svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3572">
     <inkscape:perspective
@@ -28,10 +28,10 @@
        id="perspective17" />
     <filter
        inkscape:collect="always"
-       x="-1.6254166"
-       width="4.2508333"
-       y="-0.14521876"
-       height="1.2904375"
+       x="-inf"
+       width="inf"
+       y="-0.20305142"
+       height="1.4061028"
        id="filter3194">
       <feGaussianBlur
          inkscape:collect="always"
@@ -40,10 +40,10 @@
     </filter>
     <filter
        inkscape:collect="always"
-       x="-0.48097736"
-       width="1.9619547"
-       y="-0.097604193"
-       height="1.1952084"
+       x="-0.96392003"
+       width="2.9278401"
+       y="-0.14048162"
+       height="1.2809632"
        id="filter3250">
       <feGaussianBlur
          inkscape:collect="always"
@@ -52,10 +52,10 @@
     </filter>
     <filter
        inkscape:collect="always"
-       x="-1.0632131"
-       width="3.1264262"
-       y="-0.21575664"
-       height="1.4315133"
+       x="-0.61399154"
+       width="2.227983"
+       y="-0.27890572"
+       height="1.5578115"
        id="filter3314">
       <feGaussianBlur
          inkscape:collect="always"
@@ -71,19 +71,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="39.5"
-     inkscape:cx="7.4873299"
-     inkscape:cy="14.166042"
+     inkscape:cx="7.4936709"
+     inkscape:cy="14.164557"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      width="24px"
      height="24px"
-     inkscape:window-width="850"
+     inkscape:window-width="1248"
      inkscape:window-height="686"
      inkscape:window-x="422"
      inkscape:window-y="51"
-     inkscape:snap-global="true">
+     inkscape:snap-global="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid2392" />

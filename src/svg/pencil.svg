@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    version="1.0"
-   sodipodi:docbase="/usr/local/kde/home/foo/oxy-cursors/src/svg"
    sodipodi:docname="pencil.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <linearGradient
@@ -76,10 +76,10 @@
        gradientTransform="matrix(1.274048,0,0,1.274048,-2.4359305,-4.7836034)" />
     <filter
        inkscape:collect="always"
-       x="-0.16633664"
-       width="1.3326733"
-       y="-0.16633663"
-       height="1.3326733"
+       x="-0.24978032"
+       width="1.4995661"
+       y="-0.24978579"
+       height="1.4995661"
        id="filter3465">
       <feGaussianBlur
          inkscape:collect="always"
@@ -117,17 +117,31 @@
      inkscape:pageshadow="2"
      inkscape:zoom="21.75"
      inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cy="12.022989"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="24px"
      height="24px"
      showgrid="false"
-     gridempspacing="4"
-     inkscape:window-width="794"
+     inkscape:window-width="1248"
      inkscape:window-height="734"
-     inkscape:window-x="2398"
-     inkscape:window-y="396" />
+     inkscape:window-x="1950"
+     inkscape:window-y="396"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       color="#3f3fff"
+       empcolor="#3f3fff"
+       opacity="0.15"
+       empopacity="0.38"
+       empspacing="4" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>

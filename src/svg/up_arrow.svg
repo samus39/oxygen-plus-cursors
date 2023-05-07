@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg3570"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    version="1.0"
    sodipodi:docname="up_arrow.svg"
-   sodipodi:docbase="/usr/local/kde/home/foo/oxy-cursors/src/svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3572">
     <filter
        inkscape:collect="always"
-       x="-1.6254166"
-       width="4.2508333"
-       y="-0.14521876"
-       height="1.2904375"
+       x="-inf"
+       width="inf"
+       y="-0.20305142"
+       height="1.4061028"
        id="filter3194">
       <feGaussianBlur
          inkscape:collect="always"
@@ -35,10 +35,10 @@
     </filter>
     <filter
        inkscape:collect="always"
-       x="-0.48097736"
-       width="1.9619547"
-       y="-0.097604193"
-       height="1.1952084"
+       x="-0.2424466"
+       width="1.4848928"
+       y="-0.10138051"
+       height="1.2027637"
        id="filter3250">
       <feGaussianBlur
          inkscape:collect="always"
@@ -59,10 +59,10 @@
     </clipPath>
     <filter
        id="filter3484"
-       height="1.2367425"
-       y="-0.11837127"
-       width="1.4005716"
-       x="-0.20028582"
+       height="1.6914189"
+       y="-0.34478558"
+       width="1.6348046"
+       x="-0.31086037"
        inkscape:collect="always">
       <feGaussianBlur
          id="feGaussianBlur3486"
@@ -122,18 +122,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="30.346666"
-     inkscape:cx="13.000576"
-     inkscape:cy="12.786918"
+     inkscape:cx="13.016257"
+     inkscape:cy="12.785589"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      width="24px"
      height="24px"
-     inkscape:window-width="743"
+     inkscape:window-width="1207"
      inkscape:window-height="727"
-     inkscape:window-x="2332"
-     inkscape:window-y="403" />
+     inkscape:window-x="1991"
+     inkscape:window-y="403"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata3575">
     <rdf:RDF>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg10643"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
-   sodipodi:docbase="/usr/local/kde/home/foo/oxy-cursors/src/svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="hand.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/me/svn/oxygen-playground/ruphy/arrow-shadow.png"
    inkscape:export-xdpi="67.5"
    inkscape:export-ydpi="67.5"
    version="1.0"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10645">
     <linearGradient
@@ -118,14 +118,6 @@
          offset="1"
          id="stop10715" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter10783">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.5919529"
-         id="feGaussianBlur10785" />
-    </filter>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient10711"
@@ -206,18 +198,6 @@
        fx="8.2488832"
        fy="19.781427"
        r="8.7188435" />
-    <filter
-       inkscape:collect="always"
-       x="-0.10833137"
-       width="1.2166626"
-       y="-0.073068812"
-       height="1.1461376"
-       id="filter3306">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.98119447"
-         id="feGaussianBlur3308" />
-    </filter>
     <linearGradient
        id="linearGradient3330">
       <stop
@@ -360,18 +340,6 @@
        y1="23.349636"
        x2="22.96941"
        y2="28.038134" />
-    <filter
-       inkscape:collect="always"
-       x="-0.13562681"
-       width="1.2712536"
-       y="-0.092273668"
-       height="1.1845473"
-       id="filter3586">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.2193268"
-         id="feGaussianBlur3588" />
-    </filter>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient10711"
@@ -397,10 +365,10 @@
        y2="15.552854" />
     <filter
        inkscape:collect="always"
-       x="-0.12423529"
-       width="1.2484706"
-       y="-0.1408"
-       height="1.2816"
+       x="-0.20746667"
+       width="1.4149333"
+       y="-0.21009282"
+       height="1.4201856"
        id="filter3438">
       <feGaussianBlur
          inkscape:collect="always"
@@ -439,20 +407,22 @@
      inkscape:pageshadow="2"
      inkscape:zoom="21.75"
      inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cy="12.022989"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="794"
+     inkscape:window-width="1207"
      inkscape:window-height="734"
-     inkscape:window-x="2398"
-     inkscape:window-y="0"
+     inkscape:window-x="1991"
+     inkscape:window-y="305"
      showguides="false"
      inkscape:guide-bbox="true"
      width="24px"
      height="24px"
-     showborder="true" />
+     showborder="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata10648">
     <rdf:RDF>

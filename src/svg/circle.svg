@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg10643"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
-   sodipodi:docbase="/usr/local/kde/home/foo/oxy-cursors/src/svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="circle.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/me/svn/oxygen-playground/ruphy/arrow-shadow.png"
    inkscape:export-xdpi="67.5"
    inkscape:export-ydpi="67.5"
    version="1.0"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10645">
     <linearGradient
@@ -48,7 +48,11 @@
     </linearGradient>
     <filter
        id="filter4068"
-       inkscape:collect="always">
+       inkscape:collect="always"
+       x="-0.011998371"
+       y="-0.01200163"
+       width="1.0239967"
+       height="1.0240033">
       <feGaussianBlur
          id="feGaussianBlur4070"
          stdDeviation="0.57539064"
@@ -66,10 +70,10 @@
        inkscape:collect="always" />
     <filter
        id="filter4248"
-       x="-0.05433137"
-       width="1.1086627"
-       y="-0.25805596"
-       height="1.5161119">
+       x="-0.073452281"
+       width="1.1469046"
+       y="-0.8403801"
+       height="2.6807602">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.66853052"
@@ -77,10 +81,10 @@
     </filter>
     <filter
        id="filter4202"
-       x="-0.040415537"
-       width="1.0808311"
-       y="-0.12785856"
-       height="1.2557172">
+       x="-0.049359675"
+       width="1.0987193"
+       y="-0.22055364"
+       height="1.4411073">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.59781314"
@@ -88,17 +92,21 @@
     </filter>
     <filter
        id="filter4176"
-       x="-0.086749934"
-       width="1.1734999"
-       y="-0.10374219"
-       height="1.2074844">
+       x="-0.10728137"
+       width="1.2145627"
+       y="-0.13344757"
+       height="1.2668951">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.3102854"
          id="feGaussianBlur4178" />
     </filter>
     <filter
-       id="filter4134">
+       id="filter4134"
+       x="-0.018258729"
+       y="-0.1052084"
+       width="1.0365175"
+       height="1.2104168">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.28743233"
@@ -252,19 +260,21 @@
      inkscape:pageshadow="2"
      inkscape:zoom="21.75"
      inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cy="12.022989"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="794"
+     inkscape:window-width="1207"
      inkscape:window-height="734"
-     inkscape:window-x="2404"
+     inkscape:window-x="1991"
      inkscape:window-y="396"
      showguides="true"
      inkscape:guide-bbox="true"
      width="24px"
-     height="24px" />
+     height="24px"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata10648">
     <rdf:RDF>

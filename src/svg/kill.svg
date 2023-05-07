@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
    height="24"
    id="svg10643"
    sodipodi:version="0.32"
-   inkscape:version="0.45.1+0.46pre1"
-   sodipodi:docbase="/usr/local/kde/home/foo/oxy-cursors/src/svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="kill.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/me/svn/oxygen-playground/ruphy/arrow-shadow.png"
    inkscape:export-xdpi="67.5"
    inkscape:export-ydpi="67.5"
    version="1.0"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10645">
     <linearGradient
@@ -93,10 +93,10 @@
     <filter
        inkscape:collect="always"
        id="filter3378"
-       x="-0.1089701"
-       width="1.2179402"
-       y="-0.1144186"
-       height="1.2288372">
+       x="-0.17524111"
+       width="1.3504822"
+       y="-0.18497673"
+       height="1.3699535">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.95348837"
@@ -105,10 +105,10 @@
     <filter
        inkscape:collect="always"
        id="filter3428"
-       x="-0.075776734"
-       width="1.1515535"
-       y="-0.32349729"
-       height="1.6469946">
+       x="-0.14275711"
+       width="1.2855142"
+       y="-0.98343639"
+       height="2.9668743">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="0.60597391"
@@ -156,16 +156,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="18.031223"
-     inkscape:cx="12"
-     inkscape:cy="12"
+     inkscape:cx="11.979221"
+     inkscape:cy="11.979221"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="794"
-     inkscape:window-height="714"
+     inkscape:window-width="1721"
+     inkscape:window-height="1023"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="28"
      showguides="false"
      inkscape:guide-bbox="true"
      width="24px"
@@ -173,7 +173,9 @@
      showborder="true"
      inkscape:snap-bbox="true"
      objecttolerance="1"
-     gridtolerance="10000">
+     gridtolerance="10000"
+     inkscape:pagecheckerboard="0"
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid2454"
