@@ -61,7 +61,7 @@ macro(add_theme color theme dpis)
         string(REGEX REPLACE "[.]link" "" cursor ${cursor})
         add_custom_command(OUTPUT ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
                            DEPENDS ${link}
-                           COMMAND ${LN} -s ${link_to} ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
+                           COMMAND ${LN} -sf ${link_to} ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor}
                           )
         list(APPEND ${theme}_cursors ${CMAKE_BINARY_DIR}/oxy-${theme}/cursors/${cursor})
     endforeach(link)
