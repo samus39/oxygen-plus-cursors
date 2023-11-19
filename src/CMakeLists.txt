@@ -42,10 +42,11 @@ set(COLORS
     zion
    )
 
+add_custom_target(home-install-all)
+
 foreach(color ${COLORS})
+    # CMakeLists.txt in src/theme-${color}, symlink to theme.cmake
     add_subdirectory(theme-${color})
     list(APPEND PACKAGES package-${color})
     message(STATUS "Added themes for ${color}")
 endforeach(color)
-
-add_custom_target(all-packages DEPENDS ${PACKAGES})
